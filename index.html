@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHVIZ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+    <canvas id="bg-canvas"></canvas>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-box">A</span> 
+                <span class="logo-text">ARCHIVIZ</span>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#">Strona główna</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#process">Proces</a>
+                <a href="#business">Efekt biznesowy</a>
+                <a href="#price">Cennik</a>
+                <a href="#faq">FAQ</a>
+                <a href="#cta">Kontakt</a>
+            </nav>
+
+            <div id="header" class="header-contacts">
+                <a href="tel:+48734152755" class="phone-link">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    +48 734 152 755
+                </a>
+                <a href="mailto:archiviz.pl@gmail.com" class="email-link">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    archiviz.pl@gmail.com
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <div class="hero-content">
+                <div class="hero-subtitle">PORTFOLIO</div>
+                <h1 class="hero-title">
+                    WIZUALIZACJA <br>
+                    <span class="accent-text">ARCHITEKTONICZNA</span>
+                </h1>
+                <p class="hero-description">
+                    Tworzę fotorealistyczne wizualizacje 3D, które pomagają architektom i deweloperom w prezentacji projektów oraz pomysłów.
+                </p>
+
+                <div id="header" class="hero-stats">
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                        </div>
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Zrealizowanych projektów</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        </div>
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Lat doświadczenia</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        </div>
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Zadowolonych klientów</div>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn-primary">
+                        Zobacz projekty 
+                        <span class="btn-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </span>
+                    </a>
+                    <a href="#cta" class="btn-secondary">
+                        Kontakt
+                        <span class="btn-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrap">
+                <div class="hero-image-clip">
+                    <img src="img/pngwing.com (2).png" alt="Architecture Visualization" class="parallax-img">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="portfolio" class="portfolio-section-wrap">
+        <div class="portfolio-container">
+
+            <div class="portfolio-header">
+                <div>
+                    <span class="portfolio-mini-text">PORTFOLIO</span>
+                    <h2 class="portfolio-section-title">WYBRANE PROJEKTY</h2>
+                </div>
+                <a href="#" class="view-all-link">
+                    Zobacz wszystkie
+                    <span class="link-arrow">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </span>
+                </a>
+            </div>
+
+            <input type="radio" name="portfolio-filter" id="all" checked>
+            <input type="radio" name="portfolio-filter" id="exteriors">
+            <input type="radio" name="portfolio-filter" id="interiors">
+            <input type="radio" name="portfolio-filter" id="video">
+
+            <div class="filter-controls">
+                <label for="all" class="filter-btn btn-all">Wszystkie</label>
+                <label for="exteriors" class="filter-btn btn-exteriors">Zewnętrzne</label>
+                <label for="interiors" class="filter-btn btn-interiors">Wnętrza</label>
+                <label for="video" class="filter-btn btn-video">Wideo / Animacja</label>
+            </div>
+
+            <div class="portfolio-grid">
+
+                <div class="portfolio-item cat-interiors">
+                    <div class="card-content">
+                        <img src="img/interer2.jpg" alt="Project">
+                        <div class="card-overlay"></div>
+                        <div class="card-info">
+                            <h3>Warm Minimal Room</h3>
+                            <p class="project-type">Wnętrza</p>
+                        </div>
+                        <div class="card-arrow">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item cat-exteriors">
+                    <div class="card-content">
+                        <img src="img/eksterer1.jpg" alt="Project">
+                        <div class="card-overlay"></div>
+                        <div class="card-info">
+                            <h3>Werbitskiego</h3>
+                            <p class="project-type">Zewnętrzne</p>
+                        </div>
+                        <div class="card-arrow">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item cat-exteriors">
+                    <div class="card-content">
+                        <img src="img/eksterer2.jpg" alt="Project">
+                        <div class="card-overlay"></div>
+                        <div class="card-info">
+                            <h3>Viskitki</h3>
+                            <p class="project-type">Zewnętrzne</p>
+                        </div>
+                        <div class="card-arrow">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item cat-exteriors">
+                    <div class="card-content">
+                        <img src="img/eksterer3.jpg" alt="Project">
+                        <div class="card-overlay"></div>
+                        <div class="card-info">
+                            <h3>Veridian Eco-Skyscraper</h3>
+                            <p class="project-type">Zewnętrzne</p>
+                        </div>
+                        <div class="card-arrow">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item cat-interiors">
+                    <div class="card-content">
+                        <img src="img/interer1.jpg" alt="Project">
+                        <div class="card-overlay"></div>
+                        <div class="card-info">
+                            <h3>Wood Wire Office</h3>
+                            <p class="project-type">Wnętrza</p>
+                        </div>
+                        <div class="card-arrow">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item cat-video">
+                    <div class="card-content">
+                        <img src="img/videoiter.png" alt="Project">
+                        <div class="card-overlay"></div>
+                        <div class="card-info">
+                            <h3>Modern House Design</h3>
+                            <p class="project-type">Wideo / Animacja</p>
+                        </div>
+                        <div class="card-arrow">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section id="process" class="process-section">
+        <div class="container">
+            <h2 class="portfolio-section-title">Proces współpracy</h2>
+            
+            <div class="process-flow-container">
+                <div class="flow-item">
+                    <div class="flow-card">
+                        <span class="flow-num">01</span>
+                        <h3>Briefing</h3>
+                        <p>Omówienie wytycznych projektowych i modeli.</p>
+                    </div>
+                </div>
+
+                <div class="flow-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="flow-item">
+                    <div class="flow-card">
+                        <span class="flow-num">02</span>
+                        <h3>Clay Render</h3>
+                        <p>Zatwierdzenie kadrów oraz bryły budynku.</p>
+                    </div>
+                </div>
+
+                <div class="flow-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="flow-item">
+                    <div class="flow-card">
+                        <span class="flow-num">03</span>
+                        <h3>Light & Materials</h3>
+                        <p>Ustawienie sceny, oświetlenia i tekstur.</p>
+                    </div>
+                </div>
+
+                <div class="flow-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="flow-item">
+                    <div class="flow-card">
+                        <span class="flow-num">04</span>
+                        <h3>Preview</h3>
+                        <p>Próbne rendery robocze do naniesienia poprawek.</p>
+                    </div>
+                </div>
+
+                <div class="flow-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="flow-item">
+                    <div class="flow-card">
+                        <span class="flow-num">05</span>
+                        <h3>Final HQ</h3>
+                        <p>Render końcowy i postprodukcja.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="business" class="business-section">
+        <div class="business-container">
+            <h2 class="portfolio-section-title">Efekt biznesowy</h2>
+            
+            <div class="business-grid">
+                <div class="business-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 6l-9.5 9.5-5-5L1 18"></path>
+                            <path d="M17 6h6v6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Wzrost sprzedaży</h3>
+                    <p class="card-desc">Zwiększenie konwersji na etapie pre-sale. Klienci kupują oczami, widząc klimat i atmosferę miejsca.</p>
+                </div>
+
+                <div class="business-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Zaufanie inwestora</h3>
+                    <p class="card-desc">Przejrzystość projektu eliminuje ryzyko finansowe. Każda złotówka inwestycji jest poparta wizualnym rezultatem.</p>
+                </div>
+
+                <div class="business-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="8.5" cy="7" r="4"></circle>
+                            <line x1="20" y1="8" x2="20" y2="14"></line>
+                            <line x1="23" y1="11" x2="17" y2="11"></line>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Nowi klienci</h3>
+                    <p class="card-desc">Profesjonalne materiały przyciągają dużych deweloperów, wyróżniając Twoje biuro na tle konkurencji.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="price-section">
+        <div class="price-center-container">
+            <h2 class="portfolio-section-title">Cennik</h2>
+            
+            <div class="panel-row">
+                <div class="panel-row-content">
+                    <div class="p-col service-info">
+                        <div class="service-glow-dot"></div>
+                        <div class="service-text-block">
+                            <h3>Wizualizacja zewnętrzna</h3>
+                            <p class="service-detail">2–3 ujęcia budynku, rozdzielczość 4K/8K</p>
+                        </div>
+                    </div>
+                    <div class="p-col text-center duration-tag">2–3 dni</div>
+                    <div class="p-col text-right price-tag">od <span>350 zł</span></div>
+                </div>
+            </div>
+
+            <div class="panel-row">
+                <div class="panel-row-content">
+                    <div class="p-col service-info">
+                        <div class="service-glow-dot"></div>
+                        <div class="service-text-block">
+                            <h3>Wizualizacja wnętrz</h3>
+                            <p class="service-detail">2–3 fotorealistyczne ujęcia pomieszczenia (4K/8K)</p>
+                        </div>
+                    </div>
+                    <div class="p-col text-center duration-tag">2–3 dni</div>
+                    <div class="p-col text-right price-tag">od <span>350 zł</span></div>
+                </div>
+            </div>
+
+            <div class="panel-row">
+                <div class="panel-row-content">
+                    <div class="p-col service-info">
+                        <div class="service-glow-dot"></div>
+                        <div class="service-text-block">
+                            <h3>Plan 3D (Aksonometria)</h3>
+                            <p class="service-detail">Widok pomieszczenia z góry (układ funkcjonalny i aranżacja mebli)</p>
+                        </div>
+                    </div>
+                    <div class="p-col text-center duration-tag">1–2 dni</div>
+                    <div class="p-col text-right price-tag">od <span>250 zł</span></div>
+                </div>
+            </div>
+
+            <div class="panel-row">
+                <div class="panel-row-content">
+                    <div class="p-col service-info">
+                        <div class="service-glow-dot"></div>
+                        <div class="service-text-block">
+                            <h3>Animacja architektoniczna (Reels / Shorts)</h3>
+                            <p class="service-detail">Dynamiczne wideo z przejścia przez budynek lub wnętrze (15 sek)</p>
+                        </div>
+                    </div>
+                    <div class="p-col text-center duration-tag">3–5 dni</div>
+                    <div class="p-col text-right price-tag">od <span>600 zł</span></div>
+                </div>
+            </div>
+
+            <div class="panel-row">
+                <div class="panel-row-content">
+                    <div class="p-col service-info">
+                        <div class="service-glow-dot"></div>
+                        <div class="service-text-block">
+                            <h3>Animacja architektoniczna (Full Promo)</h3>
+                            <p class="service-detail">Pełny film prezentacyjny dla projektu (30–60 sek)</p>
+                        </div>
+                    </div>
+                    <div class="p-col text-center duration-tag italic-tag">do uzgodnienia</div>
+                    <div class="p-col text-right price-tag">od <span>1800 zł</span></div>
+                </div>
+            </div>
+
+            <div class="panel-row">
+                <div class="panel-row-content">
+                    <div class="p-col service-info">
+                        <div class="service-glow-dot"></div>
+                        <div class="service-text-block">
+                            <h3>Wirtualny spacer VR (Panoramy 360°)</h3>
+                            <p class="service-detail">Interaktywna panorama wnętrza dająca efekt pełnej obecności</p>
+                        </div>
+                    </div>
+                    <div class="p-col text-center duration-tag">Coming Soon</div>
+                    <div class="p-col text-right price-tag"><span>Coming Soon</span></div>
+                </div>
+            </div>
+
+            <div class="panel-row">
+                <div class="panel-row-content">
+                    <div class="p-col service-info">
+                        <div class="service-glow-dot"></div>
+                        <div class="service-text-block">
+                            <h3>Pełny marketing projektu</h3>
+                            <p class="service-detail">Landing Page + komplet wizualizacji zewnętrznych i wewnętrznych</p>
+                        </div>
+                    </div>
+                    <div class="p-col text-center duration-tag italic-tag">indywidualnie</div>
+                    <div class="p-col text-right price-tag">od <span>4900 zł</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="faq-center-container">
+            <header class="faq-header">
+                <span class="header-decor-line"></span>
+                <h1>NAJCZĘŚCIEJ Zadawane PYTANIA (FAQ)</h1>
+            </header>
+
+            <main class="faq-grid">
+                <article class="faq-card">
+                    <h3>W jakich formatach przyjmujesz modele 3D do pracy?</h3>
+                    <p>Pracuję na większości formatów branżowych. Najlepiej sprawdzają się pliki wyeksportowane z oprogramowania architektonicznego: <span class="accent-glow">.max</span>, <span class="accent-glow">.fbx</span>, <span class="accent-glow">.obj</span>, <span class="accent-glow">.rvt</span> lub <span class="accent-glow">.pln</span>.</p>
+                </article>
+
+                <article class="faq-card">
+                    <h3>Ile poprawek jest wliczonych w stałą cenę projektu?</h3>
+                    <p>Każdy pakiet standardowo zawiera <span class="accent-glow">2 pełne ronda</span> darmowych poprawek na etapie renderów próbnych (preview). Poprawki, które kardynalnie zmieniają architekturę bryły po zatwierdzeniu kadrów, są płatne dodatkowo.</p>
+                </article>
+
+                <article class="faq-card">
+                    <h3>Jaka forma współpracy prawnej jest możliwa?</h3>
+                    <p>W przypadku zleceń jednorazowych lub projektowych podpisujemy <span class="accent-glow">Umowę o dzieło</span> wraz z przekazaniem praw autorskich. Dla dużych biur oraz stałych partnerów możliwa jest forma stałego kontraktu miesięcznego.</p>
+                </article>
+
+                <article class="faq-card">
+                    <h3>Czy wykonujesz darmowe rendery próbne?</h3>
+                    <p>Nie, ale na pierwszym etapie współpracy mogę przygotować dla Twojego biura <span class="accent-glow">testowy fragment fasady</span>, abyś mógł upewnić się co do fotorealizmu finalnego produktu.</p>
+                </article>
+            </main>
+        </div>
+    </section>
+
+    <section id="cta" class="cta-section">
+        <div class="cta-center-container">
+            <div class="premium-cta-panel">
+                <h2 class="cta-title">GOTOWY WZMOCNIĆ <span class="cyan-text">TWÓJ</span> PROJEKT?</h2>
+                <p class="cta-subtitle">Zamów render testowy lub omów szczegóły współpracy już dziś.</p>
+
+                <div class="contact-grid">
+                    <a href="mailto:stepan12volosianko@gmail.com" class="contact-card">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" class="contact-icon">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </div>
+                        <div class="card-meta">
+                            <span class="card-label">Napisz e-mail</span>
+                            <span class="contact-link">archiviz.pl@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="https://t.me/archviz_pro" target="_blank" class="contact-card">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" class="contact-icon">
+                                <path d="M9.78 18.65l.28-4.28 7.68-6.94c.34-.31-.07-.48-.52-.19L7.62 13.5 3.5 12.17c-.9-.28-.92-.9.19-1.33L19.8 4.25c.74-.28 1.38.16 1.14 1.25l-2.74 12.94c-.2 1-.8 1.25-1.63.78l-4.17-3.07-2.01 1.94c-.22.22-.4.4-.82.4z"/>
+                            </svg>
+                        </div>
+                        <div class="card-meta">
+                            <span class="card-label">Szybki kontakt</span>
+                            <span class="contact-link">+48 734 152 755</span>
+                        </div>
+                    </a>
+
+                    <a href="https://linkedin.com/in/neoncheck/" target="_blank" class="contact-card">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" class="contact-icon">
+                                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                            </svg>
+                        </div>
+                        <div class="card-meta">
+                            <span class="card-label">Profil biznesowy</span>
+                            <span class="contact-link">linkedin.com/in/neoncheck/</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="JavaScript/main.js"></script>
+</body>
+</html>
