@@ -665,7 +665,7 @@ input[type="radio"] {
 }
 
 @media (max-width: 1440px) {
-    .hero-title { font-size: 56px; }
+    .hero-title { font-size: 3vh; }
     .header-container, .hero-container, .portfolio-container { padding: 0 40px; }
     .portfolio-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
 }
@@ -1212,7 +1212,7 @@ input[type="radio"] {
     }
     
     .duration-tag::before {
-        content: "Термін: ";
+        content: "Termin: ";
         color: rgba(255, 255, 255, 0.25);
         font-size: 0.8rem;
         text-transform: uppercase;
@@ -1229,7 +1229,7 @@ input[type="radio"] {
     }
 
     .price-tag::before {
-        content: "Вартість:";
+        content: "Koszt:";
         color: rgba(0, 229, 255, 0.5);
         font-size: 0.8rem;
         text-transform: uppercase;
